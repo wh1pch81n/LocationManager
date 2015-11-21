@@ -1,15 +1,15 @@
 //
-//  LocationManagerDemoTests.swift
-//  LocationManagerDemoTests
+//  LocationManagerTests.swift
+//  LocationManagerTests
 //
-//  Created by Jimmy Jose on 28/08/14.
-//  Copyright (c) 2014 Varshyl Mobile Pvt. Ltd. All rights reserved.
+//  Created by Derrick  Ho on 11/20/15.
+//  Copyright © 2015 Derrick  Ho. All rights reserved.
 //
 
-import UIKit
 import XCTest
+@testable import LocationManager
 
-class LocationManagerDemoTests: XCTestCase {
+class LocationManagerTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -23,12 +23,12 @@ class LocationManagerDemoTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock() {
+        self.measureBlock {
             // Put the code you want to measure the time of here.
         }
     }
