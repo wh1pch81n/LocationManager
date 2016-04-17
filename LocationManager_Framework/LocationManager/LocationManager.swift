@@ -80,7 +80,7 @@ public class LocationManager: NSObject, CLLocationManagerDelegate {
     
     public var isRunning = false
     
-    public var locationFound: ((latitude: Double, longitude: Double) -> ())!
+    public var locationFound: ((latitude: Double, longitude: Double) -> ())! // You are required to set this
     public var locationFoundGetAsString: ((latitude: String, longitude: String) -> ())?
     public var locationManagerStatus: ((status: String) -> ())?
     public var locationManagerReceivedError: ((error: String) -> ())?
